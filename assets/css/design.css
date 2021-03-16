@@ -1,0 +1,40 @@
+.design {
+  padding: 140px 0 146px 0;
+  background-color: var(--light-gray);
+}
+
+.image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.section-content {
+  margin-top: 60px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+
+.section-btn {
+  display: inline-block;
+  margin-top: 60px;
+  background-color: var(--dark-blue);
+  text-transform: uppercase;
+  color: #fff;
+  padding: 25px 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s all;
+  border-radius: 5px;
+}
+
+.section-btn:hover {
+  background-color: var(--dark-blue-hover);
+}

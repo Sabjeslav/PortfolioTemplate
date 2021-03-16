@@ -1,0 +1,32 @@
+.portfolio {
+  background-color: var(--dark-blue);
+  padding: 100px 0 ;
+}
+
+.portfolio-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.item-content {
+  padding-left: 20px ;
+}
+
+.item-number {
+  display: block;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.item-caption {
+  font-size: 16px;
+  line-height: 25px;
+}

@@ -1,0 +1,47 @@
+.header {
+  padding-top: 57px;
+  background-color: var(--light-gray);
+}
+.header-burger {
+  display: none;
+}
+.logo {
+  font-family: 'Revalia', cursive;
+  font-size: 48px;
+  line-height: 60px;
+  user-select: none;
+  text-align: left;
+  color: var(--dark-blue);
+}
+
+.row-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.nav-item {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.nav-link:focus {
+  outline: none;
+}
+
+.nav-link:hover {
+  color: #34547A;
+}

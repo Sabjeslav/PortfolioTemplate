@@ -1,0 +1,9 @@
+* {
+  --light-gray: #EEEFF1;
+  --dark-blue: #34547A;
+  --dark-blue-hover: #567394;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+}

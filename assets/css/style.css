@@ -1,0 +1,17 @@
+@import './reset.css';
+/* @import './bootstrap-grid.min.css'; */
+@import './grid.css';
+@import './variables.css';
+@import './header.css';
+@import './design.css';
+@import './about.css';
+@import './portfolio.css';
+@import './skills.css';
+@import './work.css';
+@import './projects.css';
+@import './partners.css';
+@import './contacts.css';
+@import './footer.css';
+
+
+@import './media.css';

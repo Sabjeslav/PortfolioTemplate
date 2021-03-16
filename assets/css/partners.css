@@ -1,0 +1,14 @@
+.partners {
+  padding: 70px 0;
+}
+
+.partners-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.partner-item {
+  display: flex;
+  justify-content: center;
+}

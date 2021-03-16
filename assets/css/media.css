@@ -1,0 +1,275 @@
+@media screen and (max-width: 1199px ) {
+  .content-block {
+    text-align: center;
+  }
+  .about {
+    padding: 70px 0;
+    text-align: center;
+  }
+  .about .section-content {
+    padding: 0 15%;
+  }
+
+  .portfolio {
+    padding: 70px 0;
+  }
+  .portfolio-item {
+    justify-content: center;
+  }
+  .portfolio-block {
+    row-gap: 20px;
+  }
+
+  .partners {
+    padding: 50px 0;
+  }
+
+  .contacts {
+    padding: 70px 0;
+  }
+  .contacts .section-content {
+    padding: 0 10%;
+  }
+  .contact-form {
+    margin: 30px auto 0 auto;
+    width: 70%;
+  }
+  .contacts .section-btn {
+     margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .design {
+    padding: 70px 0 50px 0;
+  }
+
+  .content-block {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .section-content {
+    margin-top: 30px;
+  }
+  .section-btn {
+    margin-top: 30px;
+  }
+
+  .about .content-block {
+    margin-top: 15px;
+  }
+
+  .portfolio {
+    padding: 50px 0;
+  }
+
+  .skills {
+    padding: 50px 0;
+  }
+
+  .work {
+    padding: 50px 0;
+  }
+
+  .work .section-content {
+    padding: 0;
+  }
+
+  .work .section-video {
+    margin-top: 30px;
+  }
+
+  .projects .project-wrapper {
+    min-width: 50%;
+  }
+
+  .partners {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 30px;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .about {
+    padding: 30px 0;
+  }
+  .about .section-content {
+    padding: 0;
+  }
+
+  .skills-content {
+    align-items: center;
+  }
+
+  .skills-img {
+    margin-top: 30px;
+  }
+
+  .work .section-video img {
+    width: 100%;
+  }
+  .partners {
+    padding: 30px 0;
+  }
+
+  .contacts {
+    padding: 30px 0;
+  }
+  .contacts .section-content {
+    padding: 0;
+  }
+  .contact-form {
+    width: 100%
+  }
+
+  footer {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    padding-top: 20px;
+  }
+  .design {
+    padding: 30px 0 40px 0;
+  }
+  .section-content {
+    margin-top: 20px;
+  }
+  .design-img {
+    width: 260px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .section-btn {
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .header-burger {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 42px;
+    width: 30px;
+    height: 16px;
+    transition: .5s ease-in-out;
+  }
+  .header-burger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background-color: var(--dark-blue);
+    transition: .5s all ease-in-out;
+    border-radius: 5px;
+  }
+  .header-burger span:nth-child(1) {
+    top: 0px;
+    width: 50%;
+    transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    transform-origin: right;
+  }
+  .header-burger span:nth-child(2) {
+    top: 8px;
+    width: 100%;
+  }
+  .header-burger span:nth-child(3) {
+    top: 16px;
+    left: 50%;
+    width: 50%;
+    transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    transform-origin: bottom;
+  } 
+
+  .burger-active {
+    transform: rotate(-45deg);  
+  }
+
+  .burger-active span {
+    background-color: var(--dark-blue-hover);
+  }
+
+  .burger-active span:nth-child(1) {
+    transform: rotate(-90deg) translateX(7px);
+  }
+  .burger-active span:nth-child(3) {
+    transform: rotate(-90deg) translateY(-5px) translateX(2px);
+  }
+
+  .nav-container {
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .header-nav {
+    transition: max-height 1s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    display: block;
+    background-color: #f5f5f5;
+    box-shadow: 0px 3px 7px -1px rgba(34, 60, 80, 0.31) inset;
+  }
+  .nav-active {
+    max-height: 500px;
+  }
+  .nav-item {
+    margin-top: 10px;
+  }
+
+  .about {
+    padding: 15px 0;
+  }
+  .about .content-block {
+    margin-top: 15px;
+  }
+
+  .portfolio {
+    padding: 30px 0;
+  }
+  .portfolio-block {
+    flex-flow: column nowrap;
+  }
+  .item-number {
+    display: inline;
+  }
+  .item-caption {
+    font-size: 21px;
+  }
+
+  .work {
+    padding: 30px 0;
+  }
+
+  .projects .project-wrapper {
+    min-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .contact-form input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .author, .rights {
+    text-align: center;
+  }
+
+  .rights {
+    margin-top: 10px;
+  }
+
+  .media {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

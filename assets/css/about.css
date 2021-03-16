@@ -1,0 +1,12 @@
+.about {
+  padding: 119px 0 100px 0;
+  text-align: center;
+}
+
+.about .section-title {
+  font-size: 32px;
+}
+
+.about .section-content {
+  padding: 0 30%;
+}

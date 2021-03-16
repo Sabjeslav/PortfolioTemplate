@@ -1,0 +1,23 @@
+footer {
+  color: #fff;
+  padding: 50px 0;
+  background-color: var(--dark-blue);
+}
+
+.author {
+  font-size: 21px;
+}
+
+.rights {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.media {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+  letter-spacing: 20px;
+}

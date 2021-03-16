@@ -1,0 +1,23 @@
+.work {
+  background-color: var(--light-gray);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.work .section-title {
+  font-size: 32px;
+}
+
+.work .section-content {
+  padding: 0 30%;
+}
+
+.work .section-video {
+  margin: 57px auto 0 auto;
+  max-width: 1100px;
+}
+
+.work .section-video img {
+  object-fit: cover;
+  object-position: center;
+}
